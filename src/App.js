@@ -37,7 +37,8 @@ function App() {
           </div>
           <div className="wrapper">
             <p className="helpline-title">For Further Inquires :</p>
-            <p className="helpline-number">+01 (123) 4567 90</p>
+            <p className="helpline-number">+91 9531989776</p>
+            <p className="helpline-number">+91 7063920878</p>
           </div>
         </a>
         <a href="#" className="logo">
@@ -587,18 +588,18 @@ function App() {
             <li className="contact-item">
               <ion-icon name="call-outline" />
               <a href="tel:+01123456790" className="contact-link">
-                +01 (123) 4567 90
+                +91 9531989776
               </a>
             </li>
             <li className="contact-item">
               <ion-icon name="mail-outline" />
-              <a href="mailto:info.tourly.com" className="contact-link">
-                info.tourly.com
+              <a href="mailto:info.swarajdeepholiday.com" className="contact-link">
+                info.swarajdeepholiday.com
               </a>
             </li>
             <li className="contact-item">
               <ion-icon name="location-outline" />
-              <address>3146 Koontz, California</address>
+              <address>Andaman & Nicobar Island, 744211</address>
             </li>
           </ul>
         </div>
@@ -624,7 +625,7 @@ function App() {
     <div className="footer-bottom">
       <div className="container">
         <p className="copyright">
-          © 2022 <a href="">codewithsadee</a>. All rights reserved
+          © 2022 <a href="">swarajdeepholiday</a>. All rights reserved
         </p>
         <ul className="footer-bottom-list">
           <li>
