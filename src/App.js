@@ -31,7 +31,7 @@ function App() {
     <div className="overlay" data-overlay="" />
     <div className="header-top">
       <div className="container">
-        <a href="tel:+01123456790" className="helpline-box">
+        <a href="tel:+919531989776" className="helpline-box">
           <div className="icon-box">
             <ion-icon name="call-outline" />
           </div>
@@ -587,7 +587,7 @@ function App() {
           <ul>
             <li className="contact-item">
               <ion-icon name="call-outline" />
-              <a href="tel:+01123456790" className="contact-link">
+              <a href="tel:+919531989776" className="contact-link">
                 +91 9531989776
               </a>
             </li>
