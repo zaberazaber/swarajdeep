@@ -3,6 +3,7 @@ import './App.css';
 import Header from './component/header';
 import Gallery from './component/gallery';
 import Package from './component/package';
+import Destination from './component/destination';
 
 function App() {
   return (
@@ -16,11 +17,9 @@ function App() {
 */}
       <section className="hero" id="home">
         <div className="container">
-          <h2 className="h1 hero-title">Journey to explore world</h2>
+          <h2 className="h1 hero-title">Explore The Archipelago</h2>
           <p className="hero-text">
-            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit
-            class corporis nostra rem quos voluptatibus habitant? Fames, vivamus
-            minim nemo enim, gravida lobortis quasi, eum.
+
           </p>
           <div className="btn-group">
             <button className="btn btn-primary">Learn more</button>
@@ -93,124 +92,19 @@ function App() {
       {/* 
   - #POPULAR
 */}
-      <section className="popular" id="destination">
-        <div className="container">
-          <p className="section-subtitle">Uncover place</p>
-          <h2 className="h2 section-title">Popular destination</h2>
-          <p className="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
-            nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
-            tenetur, aptent.
-          </p>
-          <ul className="popular-list">
-            <li>
-              <div className="popular-card">
-                <figure className="card-img">
-                  <img
-                    src="./assets/images/popular-1.jpg"
-                    alt="San miguel, italy"
-                    loading="lazy"
-                  />
-                </figure>
-                <div className="card-content">
-                  <div className="card-rating">
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                  </div>
-                  <p className="card-subtitle">
-                    <a href="#">Italy</a>
-                  </p>
-                  <h3 className="h3 card-title">
-                    <a href="#">San miguel</a>
-                  </h3>
-                  <p className="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="popular-card">
-                <figure className="card-img">
-                  <img
-                    src="./assets/images/popular-2.jpg"
-                    alt="Burj khalifa, dubai"
-                    loading="lazy"
-                  />
-                </figure>
-                <div className="card-content">
-                  <div className="card-rating">
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                  </div>
-                  <p className="card-subtitle">
-                    <a href="#">Dubai</a>
-                  </p>
-                  <h3 className="h3 card-title">
-                    <a href="#">Burj khalifa</a>
-                  </h3>
-                  <p className="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="popular-card">
-                <figure className="card-img">
-                  <img
-                    src="./assets/images/popular-3.jpg"
-                    alt="Kyoto temple, japan"
-                    loading="lazy"
-                  />
-                </figure>
-                <div className="card-content">
-                  <div className="card-rating">
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                    <ion-icon name="star" />
-                  </div>
-                  <p className="card-subtitle">
-                    <a href="#">Japan</a>
-                  </p>
-                  <h3 className="h3 card-title">
-                    <a href="#">Kyoto temple</a>
-                  </h3>
-                  <p className="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <button className="btn btn-primary">More destintion</button>
-        </div>
-      </section>
-      {/* 
-  - #PACKAGE
-*/}
+        <Destination/>
+   
         <Package/>
  
         <Gallery/>
       <section className="cta" id="contact">
         <div className="container">
           <div className="cta-content">
-            <p className="section-subtitle">Call To Action</p>
+            <p className="section-subtitle">Contact Us</p>
             <h2 className="h2 section-title">
               Ready For Unforgatable Travel. Remember Us!
             </h2>
             <p className="section-text">
-              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
-              nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
-              tenetur, aptent.
             </p>
           </div>
           <button className="btn btn-secondary">Contact Us !</button>
@@ -226,12 +120,10 @@ function App() {
       <div className="container">
         <div className="footer-brand">
           <a href="#" className="logo">
-            <img src="./assets/images/logo.svg" alt="Tourly logo" />
+            <img src="./assets/images/logofull.png" alt="Tourly logo" />
           </a>
           <p className="footer-text">
-            Urna ratione ante harum provident, eleifend, vulputate molestiae
-            proin fringilla, praesentium magna conubia at perferendis, pretium,
-            aenean aut ultrices.
+            WE PLAN YOU ENJOY !!
           </p>
         </div>
         <div className="footer-contact">

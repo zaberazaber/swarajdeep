@@ -8,9 +8,7 @@ const Package = () => {
           <p className="section-subtitle">Popular Packeges</p>
           <h2 className="h2 section-title">Checkout Our Packeges</h2>
           <p className="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
-            nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
-            tenetur, aptent.
+            Choose from our versatile product range.
           </p>
           <ul className="package-list">
             <li>
@@ -24,30 +22,28 @@ const Package = () => {
                 </figure>
                 <div className="card-content">
                   <h3 className="h3 card-title">
-                    Experience The Great Holiday On Beach
+                  Andaman Tour Packages from Delhi
                   </h3>
                   <p className="card-text">
-                    Laoreet, voluptatum nihil dolor esse quaerat mattis
-                    explicabo maiores, est aliquet porttitor! Eaque, cras,
-                    aspernatur.
+                  2 Nights Port Blair | 2 Night Havelock Island
                   </p>
                   <ul className="card-meta-list">
                     <li className="card-meta-item">
                       <div className="meta-box">
                         <ion-icon name="time" />
-                        <p className="text">7D/6N</p>
+                        <p className="text">D5/4N</p>
                       </div>
                     </li>
                     <li className="card-meta-item">
                       <div className="meta-box">
                         <ion-icon name="people" />
-                        <p className="text">pax: 10</p>
+                        <p className="text">pax: ~</p>
                       </div>
                     </li>
                     <li className="card-meta-item">
                       <div className="meta-box">
                         <ion-icon name="location" />
-                        <p className="text">Malaysia</p>
+                        <p className="text">India</p>
                       </div>
                     </li>
                   </ul>
@@ -64,7 +60,7 @@ const Package = () => {
                     </div>
                   </div>
                   <p className="price">
-                    $750
+                    42,000
                     <span>/ per person</span>
                   </p>
                   <button className="btn btn-secondary">Book Now</button>
@@ -82,12 +78,10 @@ const Package = () => {
                 </figure>
                 <div className="card-content">
                   <h3 className="h3 card-title">
-                    Summer Holiday To The Oxolotan River
+                  7 Days Andaman Tour Package
                   </h3>
                   <p className="card-text">
-                    Laoreet, voluptatum nihil dolor esse quaerat mattis
-                    explicabo maiores, est aliquet porttitor! Eaque, cras,
-                    aspernatur.
+                  2 NIGHTS PORT BLAIR | 2 NIGHT HAVELOCK ISLAND | 2 NIGHT NEIL ISLAND
                   </p>
                   <ul className="card-meta-list">
                     <li className="card-meta-item">
@@ -99,13 +93,13 @@ const Package = () => {
                     <li className="card-meta-item">
                       <div className="meta-box">
                         <ion-icon name="people" />
-                        <p className="text">pax: 10</p>
+                        <p className="text">pax: ~</p>
                       </div>
                     </li>
                     <li className="card-meta-item">
                       <div className="meta-box">
                         <ion-icon name="location" />
-                        <p className="text">Malaysia</p>
+                        <p className="text">India</p>
                       </div>
                     </li>
                   </ul>
@@ -122,7 +116,7 @@ const Package = () => {
                     </div>
                   </div>
                   <p className="price">
-                    $520
+                    52,000
                     <span>/ per person</span>
                   </p>
                   <button className="btn btn-secondary">Book Now</button>
@@ -140,30 +134,28 @@ const Package = () => {
                 </figure>
                 <div className="card-content">
                   <h3 className="h3 card-title">
-                    Santorini Island's Weekend Vacation
+                  Andaman Tour Packages from Chennai
                   </h3>
                   <p className="card-text">
-                    Laoreet, voluptatum nihil dolor esse quaerat mattis
-                    explicabo maiores, est aliquet porttitor! Eaque, cras,
-                    aspernatur.
+                  2 Nights Port Blair | 1 Night Havelock Island | 1 Neil Island
                   </p>
                   <ul className="card-meta-list">
                     <li className="card-meta-item">
                       <div className="meta-box">
                         <ion-icon name="time" />
-                        <p className="text">7D/6N</p>
+                        <p className="text">5D/4N</p>
                       </div>
                     </li>
                     <li className="card-meta-item">
                       <div className="meta-box">
                         <ion-icon name="people" />
-                        <p className="text">pax: 10</p>
+                        <p className="text">pax: ~</p>
                       </div>
                     </li>
                     <li className="card-meta-item">
                       <div className="meta-box">
                         <ion-icon name="location" />
-                        <p className="text">Malaysia</p>
+                        <p className="text">India</p>
                       </div>
                     </li>
                   </ul>
@@ -180,7 +172,7 @@ const Package = () => {
                     </div>
                   </div>
                   <p className="price">
-                    $660
+                    38,000
                     <span>/ per person</span>
                   </p>
                   <button className="btn btn-secondary">Book Now</button>
