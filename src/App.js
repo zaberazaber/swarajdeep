@@ -4,6 +4,7 @@ import Header from './component/header';
 import Gallery from './component/gallery';
 import Package from './component/package';
 import Destination from './component/destination';
+import QRApp from './component/qrgenerator';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           </p>
           <div className="btn-group">
             <button className="btn btn-primary">Learn more</button>
-            <button className="btn btn-secondary">Book now</button>
+            <button className="btn btn-secondary" >Book now</button>
           </div>
         </div>
       </section>
@@ -95,6 +96,8 @@ function App() {
         <Destination/>
    
         <Package/>
+
+        <QRApp/>
  
         <Gallery/>
       <section className="cta" id="contact">

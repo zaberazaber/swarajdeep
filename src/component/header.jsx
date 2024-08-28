@@ -19,7 +19,6 @@ import { useMediaQuery } from 'react-responsive';
           <div className="wrapper">
             <p className="helpline-title">For Further Inquires :</p>
             <p className="helpline-number">+91 9531989776</p>
-            <p className="helpline-number">+91 7063920878</p>
           </div>
         </a>
         {isMobile ?   <a href="#" className="logo">
@@ -90,6 +89,11 @@ import { useMediaQuery } from 'react-responsive';
             <li>
               <a href="#package" className="navbar-link" data-nav-link="">
                 packages
+              </a>
+            </li>
+            <li>
+              <a href="#booking" className="navbar-link" data-nav-link="">
+                booking
               </a>
             </li>
             <li>
